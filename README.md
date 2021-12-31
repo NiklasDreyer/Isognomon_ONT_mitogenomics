@@ -7,7 +7,7 @@ This repository contains code and information related to our paper on the Isogno
 - Annotation and Assembly
 - Phylogenetics (Alignment, Ambiguity assesment with GBlocks and Maximum-Likelihood inference with IQTREE)
 
-#concact: Niklas Dreyer, Biodiversity Research Center, Academia Sinica, Taiwan + Natural History Museum of Denmark, University of Copenhagen, Denmark
+#contact: Niklas Dreyer, Biodiversity Research Center, Academia Sinica, Taiwan + Natural History Museum of Denmark, University of Copenhagen, Denmark
 
 ---- DATA QUALITY ----
 #inspect quality and read statistics for raw files
