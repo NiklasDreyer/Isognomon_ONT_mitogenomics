@@ -87,7 +87,7 @@ mafft --auto --amino --maxiterate 100 --op 1.53 --ep 0.123 --lop -2.00 --lep 0.1
 
 #export alignment files to separate folder remove everything after "_prot..." with sed before trimming alignment
 
-sed 's/_prot_.*//' <your_input_file> > <your_output_file>
+sed 's/__prot_.*//' <your_input_file> > <your_output_file>
 
 #import and trim alignments to shortest sequence (We used GeneiousPrime)
 #concatenate (We used GeneiousPrime)
