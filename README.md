@@ -10,7 +10,9 @@ This repository contains code and information related to our paper on the Isogno
 #contact: Niklas Dreyer, Biodiversity Research Center, Academia Sinica, Taiwan + Natural History Museum of Denmark, University of Copenhagen, Denmark
 
 ---- DATA QUALITY ----
+
 #inspect quality and read statistics for raw files
+
 #install nanopack (contains all scripts: https://github.com/wdecoster/nanopack)
 
 ```
