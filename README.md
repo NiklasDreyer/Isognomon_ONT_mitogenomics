@@ -94,8 +94,11 @@ sed 's/__prot_.*//' <your_input_file> > <your_output_file>
 #asses ambiguities in trimmed alignment with Gblocks (https://github.com/atmaivancevic/Gblocks ; http://molevol.cmima.csic.es/castresana/Gblocks/Gblocks_documentation.html)
 
 conda create --name gblocks 
+
 conda activate gblocks 
+
 conda update conda
+
 conda install -c bioconda/label/cf201901 gblocks
 
 #add "P1" to beginning of each ">" line with sed to allow Gblocks to run ambiguity assessment on protein sequences in command line (if you want to avoid this, run the alignment with prefered options through the webserver; http://molevol.cmima.csic.es/castresana/Gblocks_server.html)
@@ -109,8 +112,11 @@ gblocks <your_input_file> -t=p -b1=24 -b2=39 -b3=4 -b4=10 -b5=n -b6=y
 #infer maximum likelihood phylogenetic trees with IQTREE (https://github.com/Cibiv/IQ-TREE ; http://www.iqtree.org/)
 
 conda create --name iqtree
+
 conda activate iqtree
+
 conda update conda
+
 conda install -c bioconda/label/cf201901 iqtree
 
 #check installation
@@ -127,6 +133,7 @@ http://etetoolkit.org/treeview
 #alternatively visualize tree with FigTree/iTOL (https://itol.embl.de) tree viewers (We used GeneiousPrime)
 
 conda install -c bioconda figtree
+
 figtree
 
 
