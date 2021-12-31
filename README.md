@@ -13,12 +13,11 @@ This repository contains code and information related to our paper on the Isogno
 #inspect quality and read statistics for raw files
 #install nanopack (contains all scripts: https://github.com/wdecoster/nanopack)
 
+```
 conda create --name nanopack
 conda activate nanopack
 conda update conda
 pip install nanopack --upgrade
-
-```
 NanoPlot -t 15 --format <your_format> --fastq <your_name>.fastq --title <your_name> --maxlength 50000 --N50 --plots dot kde -o <your_output_dir>
 ```
 
