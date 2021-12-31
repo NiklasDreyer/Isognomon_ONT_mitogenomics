@@ -26,6 +26,7 @@ NanoPlot -t 15 --format <your_format> --fastq <your_name>.fastq --title <your_na
 ---- ANNOTATION ----
 
 #get annotated mtgenome sequences from polished contig1 with MitoS. Submit contig to http://mitos.bioinf.uni-leipzig.de/
+
 #inspect ORFs and, if necessary, manually curate reads to stop codon. 
 
 ---- PHYLOGENETICS ----
@@ -83,9 +84,13 @@ sed 's/lcl|//' <your_file>
 ```
 
 #organize sequences in folders for each gene (we used GeneiousPrime)
+
 #align the sequences with MAFFT (https://github.com/GSLBiotech/mafft ; https://mafft.cbrc.jp/alignment/software/manual/manual.html#lbAI)
+
 #automatic selction of appropriate alignment strategy with either L-INS-i, FFT-NS-i or FFT-NS-2
+
 #use BLOSUM62 protin alignment matrix (--bl 62) 
+
 ```
 conda create --name mafft
 conda activate mafft
@@ -94,7 +99,6 @@ conda install -c bioconda/label/cf201901 mafft
 
 mafft --auto --amino --maxiterate 100 --op 1.53 --ep 0.123 --lop -2.00 --lep 0.1 --lexp -0.1 --LOP -6.00 --LEXP 00 --bl 62 --jtt BLOSUM62 --tm BLOSUM62 --aamatrix BLOSUM62 --inputorder input_file > output_file
 ```
-
 #export alignment files to separate folder remove everything after "_prot..." with sed before trimming alignment
 
 ```
@@ -153,16 +157,6 @@ http://etetoolkit.org/treeview
 conda install -c bioconda figtree
 figtree
 ```
-
-
-
-
-
-
-
-
-
-
 
 
 
