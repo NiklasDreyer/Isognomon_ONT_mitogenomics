@@ -24,6 +24,7 @@ NanoPlot -t 15 --format <your_format> --fastq <your_name>.fastq --title <your_na
 ---- PHYLOGENETICS ----
 
 #download annotated sequences (.faa and .fas files) from MitoS.
+
 #download Pteriomorphia protein coding genes from GenBank
 #accession numbers as follows
 
