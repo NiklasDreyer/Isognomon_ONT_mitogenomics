@@ -7,6 +7,10 @@ Biodiversity Research Center, Academia Sinica, Taiwan
 Natural History Museum of Denmark, University of Copenhagen, Denmark,
 email: dreyer@snm.ku.dk
 
+John Wang,
+Biodiversity Research Center, Academia Sinica, Taiwan 
+johnwang@gate.sinica.edu.tw
+
 
 
 
