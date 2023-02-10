@@ -1,4 +1,4 @@
-# isognomon_ONT_mitogenomics
+# Isognomon_ONT_mitogenomics
 This repository contains code and information related to our paper on the Isognomon nucleus mitogenome
 
 Supplementary data files can be found here: https://figshare.com/articles/dataset/Supplementary_data_files_Isognomon_project_zip/17707817
