@@ -3,9 +3,12 @@ This repository contains code and information related to our paper on the Isogno
 
 Contact: 
 Niklas Dreyer,
-Biodiversity Research Center, Academia Sinica, Taiwan 
+Harvard University, Museum of Comparative Zoology
+&&
+Biodiversity Research Center, Academia Sinica, Taiwan
+&&
 Natural History Museum of Denmark, University of Copenhagen, Denmark,
-email: dreyer@snm.ku.dk
+email: ndreyer@g.harvard.edu
 
 John Wang,
 Biodiversity Research Center, Academia Sinica, Taiwan 
